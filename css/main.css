@@ -323,7 +323,7 @@ ul {
 /**** HERO ****/
 .hero {
   min-height: 100vh;
-  padding-top: 4.6875rem;
+  padding-block: 4.6875rem;
   display: flex;
   align-items: center;
   position: relative;
@@ -401,7 +401,7 @@ ul {
         gap: 0.5rem;
         font-size: 0.875rem;
         font-weight: 600;
-        padding: 0.75rem 1.375rem;
+        padding: 12px 22px;
         border-radius: 0.5rem;
         transition: all 0.2s;
       }
@@ -460,7 +460,15 @@ ul {
         margin-inline: auto;
       }
 
-      .hero-buttons,
+      .hero-buttons {
+        justify-content: center;
+
+        .projects-btn,
+        .cv-btn {
+          padding: 8px 12px;
+        }
+      }
+
       .social-links {
         justify-content: center;
       }
