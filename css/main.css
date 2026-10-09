@@ -376,14 +376,14 @@ ul {
     }
 
     h2 {
-      margin-top: 0.9375rem;
-      font-size: 1.875rem;
+      margin-top: 0.75rem;
+      font-size: clamp(24px, 3vw, 30px);
       color: var(--text-secondary);
     }
 
     .hero-text {
       max-width: 37.5rem;
-      margin-top: 1.25rem;
+      margin-top: 0.75rem;
       color: var(--text-body);
       font-size: 1rem;
     }
@@ -460,17 +460,17 @@ ul {
         margin-inline: auto;
       }
 
-      .hero-buttons {
+      .hero-buttons,
+      .social-links {
         justify-content: center;
-
+      }
+    }
+    @media (max-width: 600px) {
+      .hero-buttons {
         .projects-btn,
         .cv-btn {
           padding: 8px 12px;
         }
-      }
-
-      .social-links {
-        justify-content: center;
       }
     }
   }
