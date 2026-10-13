@@ -107,6 +107,12 @@ ul {
   padding-block: 6.25rem;
 }
 
+.my-email {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
+}
+
 /**** SCROLLBAR ****/
 ::-webkit-scrollbar {
   width: 8px;
