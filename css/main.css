@@ -739,8 +739,6 @@ ul {
       transition: all 0.3s;
 
       .skills-category {
-        width: 30%;
-
         h3 {
           font-size: 1.25rem;
           font-weight: 700;
@@ -748,7 +746,6 @@ ul {
       }
 
       .skills-list {
-        width: 70%;
         display: flex;
         flex-wrap: wrap;
         align-items: start;
@@ -795,6 +792,14 @@ ul {
           border-color: var(--color-secondary);
           margin-inline: -50px;
           padding-inline: 50px;
+        }
+
+        .skills-category {
+          width: 30%;
+        }
+
+        .skills-list {
+          width: 70%;
         }
       }
     }
